@@ -105,4 +105,4 @@ usuários:
 | GET    | Show   | http://localhost:8000/api/core/medications/:medication_id | Retornar um único medicamento de acordo com seu id (fornecido no lugar de ```:medication_id```).                                                                                      |
 | POST   | Add    | http://localhost:8000/api/core/medications                | Adicionar um medicamento com o envio dos dados seguindo a estrutura do objeto apresentado.                                                                                            |
 | PUT    | Edit   | http://localhost:8000/api/core/medications/:medication_id | Editar um medicamento com o envio dos dados do medicamento seguindo a estrutura do objeto apresentado e com o id do medicamento existente fornecido no lugar de ```:medication_id```. |
-| DELETE | Excluir| http://localhost:8000/api/core/medications/:medication_id | Excluir um medicamento existente, cujo id deve ser fornecido no lugar de ```:medication_id```.
+| DELETE | Delete | http://localhost:8000/api/core/medications/:medication_id | Excluir um medicamento existente, cujo id deve ser fornecido no lugar de ```:medication_id```.
